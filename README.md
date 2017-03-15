@@ -12,7 +12,7 @@
 8. If you encounter an es6-promise module error, just do 'npm install es6-promise' or the module name and same if any of the modules are missing.
 9. Download XAMPP or use phpmyadmin (on your cpanel if you're hosting it online).
 10. Create a database user & database, and give it required permissions (create, update & delete records).
-11. Insert the transactions.sql inside your database.
+11. Insert the advanced_database.sql inside your database.
 12. Configure the config.js file.
 13. Open terminal/console, cd YOUR_LOCATION/steambot
 14. Write the following command and press enter: blockchain-wallet-service start --port 3000
@@ -36,7 +36,8 @@
 Go to Settings -> Addresses -> My Bitcoin Wallet -> Manage -> More Options -> Show xpub</p>
 
 ### What is a static_address?
-<p>It is the address that we are going to use to store your bitcoins on the bot, it's an undirected way to use them, in other words, you own them, but you can't use them unless you transfer them to your main wallet.<br/>
+<p>It is the address that we are going to use to store your bitcoins on the bot, it's an undirected way to use them, in other words, you own them, but you can't use them unless you 
+fer them to your main wallet.<br/>
 
 What do I do with it?<br/>
 Keep it empty, until you boot the bot and it will generate addresses.<br/>
