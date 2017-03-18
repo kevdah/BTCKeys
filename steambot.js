@@ -94,7 +94,7 @@ const keysToAccept = [
     "Operation Phoenix Case Key",
     "Gamma Case Key",
     "Gamma 2 Case Key",
-    "Glove Case Key"
+    "Glove Case Key",
     "Spectrum Case Key"
 ];
 
