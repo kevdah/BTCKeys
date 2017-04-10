@@ -218,6 +218,11 @@ let getCapacity = function (callback) {
             }
             console.log("Successfully initialized bot capacity: " + lcapacity);
             callback(null, lcapacity);
+             if (enableEUR) {
+                    client.gamesPlayed("[B: $" + buying_key_price_usd + "/" + EUR_SIGN + buying_key_price_eur + "] [S: $" + selling_key_price_usd + "/" + EUR_SIGN + selling_key_price_eur + "] [Keys " + lcapacity + "/" + KEYS_LIMIT + "]");
+                } else {
+                    client.gamesPlayed("[B: $" + buying_key_price_usd + "] [S: $" + selling_key_price_usd + "] [Keys " + lcapacity + "/" + KEYS_LIMIT + "]");
+                }
         }
     });
 };
